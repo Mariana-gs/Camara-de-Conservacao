@@ -7,7 +7,7 @@ Desenvolvimento de uma Câmara de Conservação para o projeto da disciplina de 
 
 ## Cronograma do Projeto
 
-![[Pasted image 20221006114529.png]]
+![Pasted image 20221006114529](https://user-images.githubusercontent.com/81964220/194348601-86554fac-cecf-4b60-bdaf-5bcd22d5c8ab.png)
 
 ### Etapas do Projeto
 - [ ] Montagem da Maquete Em Isopor
@@ -23,8 +23,7 @@ Desenvolvimento de uma Câmara de Conservação para o projeto da disciplina de 
 
 ### Diagrama do Projeto
 
-![[CÂMARA DE CONSERVAÇÃO_bb.jpg]]
-
+![CÂMARA DE CONSERVAÇÃO_bb](https://user-images.githubusercontent.com/81964220/194348629-69ead50b-5b80-4f8c-a4a3-a7d246ce8c43.jpg)
 
 ### Lista de Materiais
 - [ ] Caixa de Isopor
