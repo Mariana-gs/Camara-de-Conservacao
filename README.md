@@ -14,7 +14,7 @@ Desenvolvimento de uma Câmara de Conservação para o projeto da disciplina de 
 - [ ] Instalação do Sistema de Refrigeração
 - [ ] Instalação do Controle de temperatura
 - [ ] Instalação do Controle de porta
-- [ ] Iluminação Interior
+- [x] Iluminação Interior
 - [ ] Aplicativo MQTT
 
 ---
@@ -23,22 +23,22 @@ Desenvolvimento de uma Câmara de Conservação para o projeto da disciplina de 
 
 ### Diagrama do Projeto
 
-![CÂMARA DE CONSERVAÇÃO_bb](https://user-images.githubusercontent.com/81964220/194348629-69ead50b-5b80-4f8c-a4a3-a7d246ce8c43.jpg)
+![CÂMARA DE CONSERVAÇÃO_bb](https://user-images.githubusercontent.com/81964220/195209385-b617569b-7df6-4baf-b282-e0941dcbf43c.jpg)
 
 ### Lista de Materiais
-- [ ] Caixa de Isopor
-- [ ] Dobradiças
+- [x] Caixa de Isopor
+- [x] Dobradiças
 - [x] ESP-32
-- [ ] Imã
-- [ ] Reed Switch (Ky-025)
-- [ ] Pasta Térmica
-- [ ] 2 Dissipadores de Calor
-- [ ] 2 Coolers
-- [ ] Fonte Ajustável Protobord
+- [x] Imã
+- [x] Reed Switch (Ky-025)
+- [x] Pasta Térmica
+- [x] 2 Dissipadores de Calor
+- [x] 2 Coolers
+- [x] Fonte Ajustável Protobord
 - [x] 3 Relés
 - [x] Potenciômetro
 - [x] Buzzer
-- [ ] Pastilha Peltier
+- [x] Pastilha Peltier
 - [x] Sensor de Temperatura (TMP36)
 - [x] 4 LEDs Alto Brilho
 - [x] Display LCD
