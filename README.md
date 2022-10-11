@@ -11,6 +11,7 @@ Desenvolvimento de uma Câmara de Conservação para o projeto da disciplina de 
 
 ### Etapas do Projeto
 - [ ] Montagem da Maquete Em Isopor
+- [x] Montagem do Sistema de Refrigração
 - [ ] Instalação do Sistema de Refrigeração
 - [ ] Instalação do Controle de temperatura
 - [ ] Instalação do Controle de porta
