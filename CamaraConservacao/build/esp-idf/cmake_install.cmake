@@ -122,6 +122,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/GitHub/Camara-de-Conservacao/CamaraConservacao/build/esp-idf/ulp/cmake_install.cmake")
   include("D:/GitHub/Camara-de-Conservacao/CamaraConservacao/build/esp-idf/wifi_provisioning/cmake_install.cmake")
   include("D:/GitHub/Camara-de-Conservacao/CamaraConservacao/build/esp-idf/main/cmake_install.cmake")
+  include("D:/GitHub/Camara-de-Conservacao/CamaraConservacao/build/esp-idf/HD44780/cmake_install.cmake")
 
 endif()
 

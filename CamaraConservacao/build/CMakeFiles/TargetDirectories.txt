@@ -676,3 +676,10 @@ D:/GitHub/Camara-de-Conservacao/CamaraConservacao/build/esp-idf/main/CMakeFiles/
 D:/GitHub/Camara-de-Conservacao/CamaraConservacao/build/esp-idf/main/CMakeFiles/install.dir
 D:/GitHub/Camara-de-Conservacao/CamaraConservacao/build/esp-idf/main/CMakeFiles/install/local.dir
 D:/GitHub/Camara-de-Conservacao/CamaraConservacao/build/esp-idf/main/CMakeFiles/install/strip.dir
+D:/GitHub/Camara-de-Conservacao/CamaraConservacao/build/esp-idf/HD44780/CMakeFiles/__idf_HD44780.dir
+D:/GitHub/Camara-de-Conservacao/CamaraConservacao/build/esp-idf/HD44780/CMakeFiles/edit_cache.dir
+D:/GitHub/Camara-de-Conservacao/CamaraConservacao/build/esp-idf/HD44780/CMakeFiles/rebuild_cache.dir
+D:/GitHub/Camara-de-Conservacao/CamaraConservacao/build/esp-idf/HD44780/CMakeFiles/list_install_components.dir
+D:/GitHub/Camara-de-Conservacao/CamaraConservacao/build/esp-idf/HD44780/CMakeFiles/install.dir
+D:/GitHub/Camara-de-Conservacao/CamaraConservacao/build/esp-idf/HD44780/CMakeFiles/install/local.dir
+D:/GitHub/Camara-de-Conservacao/CamaraConservacao/build/esp-idf/HD44780/CMakeFiles/install/strip.dir
