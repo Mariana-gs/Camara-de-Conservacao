@@ -10,5 +10,8 @@
     "idf.portWin": "COM3",
     "idf.pythonBinPathWin": "C:\\Users\\maria\\.espressif\\python_env\\idf4.4_py3.8_env\\Scripts\\python.exe",
     "idf.toolsPathWin": "C:\\Users\\maria\\.espressif",
-    "idf.flashType": "UART"
+    "idf.flashType": "UART",
+    "files.associations": {
+        "esp_rom_gpio.h": "c"
+    }
 }
