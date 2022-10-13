@@ -1,11 +1,8 @@
 #include <freertos/FreeRTOS.h>// FreeRTOS para usar delay
 #include <freertos/task.h>
-#include "sdkconfig.h"  
+#include "sdkconfig.h"  // carrega informações do build
 #include "driver/gpio.h"
 #include "esp_rom_gpio.h"
-#include "driver/i2c.h"
-
-static const char *TAG = "i2c-simple-example";
 
 // Definições pré main(): pinos, variáveis, etc
 
@@ -18,31 +15,7 @@ static const char *TAG = "i2c-simple-example";
 #define pinoPeltier 5
 #define pinoCoolers 18
 
-
-char buffer[10];
-float num = 12.34;
-
-/**
- * @brief i2c master initialization
- */
-static esp_err_t i2c_master_init(void)
-{
-    int i2c_master_port = I2C_NUM_0;
-
-    i2c_config_t conf = {
-        .mode = I2C_MODE_MASTER,
-        .sda_io_num = GPIO_NUM_21,
-        .scl_io_num = GPIO_NUM_22,
-        .sda_pullup_en = GPIO_PULLUP_ENABLE,
-        .scl_pullup_en = GPIO_PULLUP_ENABLE,
-        .master.clk_speed = 100000,
-    };
-
-    i2c_param_config(i2c_master_port, &conf);
-    return i2c_driver_install(i2c_master_port, conf.mode, 0, 0, 0);
-}
-
-
+//
 void porta(void *pvParameter)
 {
   while(1)
@@ -92,16 +65,10 @@ gpio_set_level(pinoCoolers, 1);
 gpio_set_level(pinoPeltier, 0); 
 
 
-ESP_ERROR_CHECK(i2c_master_init());
-ESP_LOGI(TAG, "I2C initialized successfully");
-
-lcd_init();
-lcd_clear();
-
-
-
     while (1) { //equivalente ao loop() do Arduino   
 
+
+    
 
     }// Fim do Loop
 
