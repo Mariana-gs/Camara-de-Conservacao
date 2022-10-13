@@ -26,7 +26,7 @@ Desenvolvimento de uma Câmara de Conservação para o projeto da disciplina de 
 
 ![CÂMARA DE CONSERVAÇÃO_bb](https://user-images.githubusercontent.com/81964220/195209385-b617569b-7df6-4baf-b282-e0941dcbf43c.jpg)
 
-### Lista de Materiais
+### Para o desenvolvimento desse projeto será necessário:
 - [x] Caixa de Isopor
 - [x] Dobradiças
 - [x] ESP-32
