@@ -10,9 +10,9 @@ Desenvolvimento de uma Câmara de Conservação para o projeto da disciplina de 
 ![Pasted image 20221006114529](https://user-images.githubusercontent.com/81964220/194348601-86554fac-cecf-4b60-bdaf-5bcd22d5c8ab.png)
 
 ### Etapas do Projeto
-- [ ] Montagem da Maquete Em Isopor
+- [x] Montagem da Maquete Em Isopor
 - [x] Montagem do Sistema de Refrigração
-- [ ] Instalação do Sistema de Refrigeração
+- [x] Instalação do Sistema de Refrigeração
 - [ ] Instalação do Controle de temperatura
 - [ ] Instalação do Controle de porta
 - [x] Iluminação Interior
