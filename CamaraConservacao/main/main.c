@@ -7,9 +7,7 @@
 #include "driver/adc.h"
 
 
-
 // Definições pré main(): pinos, variáveis, etc
-
 
 #define pinoLI2 2
 #define pinoLI3 4
@@ -80,11 +78,12 @@ gpio_set_level(pinoPeltier, 1);
     while (1) { //equivalente ao loop() do Arduino   
 
     int valorSensor = adc1_get_raw(TMP);
-    int temperaturaC = (valorSensor-500)/10;         
+    int temperaturaC = (valorSensor-500)/10;       
+
        
     printf("Temperatura: %d C\n", temperaturaC);
 
-    vTaskDelay(1000 / portTICK_PERIOD_MS);
+    vTaskDelay(3000 / portTICK_PERIOD_MS);
     fflush(stdout);
     
     }// Fim do Loop
