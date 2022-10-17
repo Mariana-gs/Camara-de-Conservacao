@@ -16,7 +16,7 @@
 #define pinoPeltier 5
 #define pinoCoolers 18
 
-#define TMP ADC1_CHANNEL_3 //39
+#define TMP ADC1_CHANNEL_0 //36
 
 //
 void porta(void *pvParameter)
@@ -55,8 +55,6 @@ gpio_set_direction(pinoLI3, GPIO_MODE_OUTPUT);
 //gpio_set_direction(pinoLI4, GPIO_MODE_OUTPUT);
 
 
-
-
 //Pino Reed Switch
 gpio_pad_select_gpio(pinoSensorRS);
 gpio_set_direction(pinoSensorRS, GPIO_MODE_INPUT);
@@ -78,11 +76,16 @@ gpio_set_level(pinoPeltier, 1);
     while (1) { //equivalente ao loop() do Arduino   
 
     int valorSensor = adc1_get_raw(TMP);
-    int temperaturaC = (valorSensor-500)/10;       
+    int vout;
+    //int temperaturaC = (valorSensor-500)/10; 
+    //int temperaturaC = (valorSensor*0.4915)- 50.771;
+      
+    printf("valorSensor: %d\n", valorSensor);
+    vout = valorSensor * 950/1024;
+    printf("vout: %d\n", vout);
 
-       
+    int temperaturaC = (vout - 500)/10;
     printf("Temperatura: %d C\n", temperaturaC);
-
     vTaskDelay(3000 / portTICK_PERIOD_MS);
     fflush(stdout);
     
