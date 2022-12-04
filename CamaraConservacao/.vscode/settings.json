@@ -12,6 +12,7 @@
     "idf.toolsPathWin": "C:\\Users\\maria\\.espressif",
     "idf.flashType": "UART",
     "files.associations": {
-        "esp_rom_gpio.h": "c"
+        "esp_rom_gpio.h": "c",
+        "adc.h": "c"
     }
 }
