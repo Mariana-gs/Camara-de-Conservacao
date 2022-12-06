@@ -14,8 +14,6 @@
     "files.associations": {
         "esp_rom_gpio.h": "c",
         "adc.h": "c",
-        "sys.h": "c",
-        "esp_event.h": "c",
-        "*.inc": "c"
+        "sys.h": "c"
     }
 }
