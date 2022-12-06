@@ -7,7 +7,7 @@
 #include "driver/adc.h"
 #include "sdkconfig.h"
 #include "esp_adc_cal.h"
-
+//#include "mqtt.h"
 #include "nvs_flash.h"
 #include "esp_wifi.h"
 #include "esp_system.h"
@@ -21,9 +21,6 @@
 #include "lwip/netdb.h"
 #include "lwip/dns.h"
 #include "freertos/event_groups.h"
-
-#include "mqtt.h"
-
 
 
 // Definições pré main():
@@ -148,8 +145,6 @@ void wifi_init_sta(void){
 //---------------------------------------
 
 
-
-
 static esp_adc_cal_characteristics_t adc1_chars;
 //Iluminação
 void porta(void *pvParameter)
@@ -181,9 +176,6 @@ void app_main(void){
 
     ESP_LOGI(TAG, "ESP_WIFI_MODE_STA");
     wifi_init_sta();
-
-    mqtt_start();
-    
 
 
 //Configura conversor AD
@@ -225,7 +217,7 @@ while(1){
  valorSensor = adc1_get_raw(pinoTemp);
  totaltemp = 0;
  temp = esp_adc_cal_raw_to_voltage(valorSensor,&adc1_chars);
-  for(int i = 0; i < 500; i++){
+  for(int i = 0; i < 1000; i++){
     temp = esp_adc_cal_raw_to_voltage(valorSensor,&adc1_chars);
     totaltemp += temp;
   }
