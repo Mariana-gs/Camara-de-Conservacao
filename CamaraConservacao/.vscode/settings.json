@@ -13,13 +13,6 @@
     "idf.flashType": "UART",
     "files.associations": {
         "esp_rom_gpio.h": "c",
-        "adc.h": "c",
-        "esp_netif.h": "c",
-        "task.h": "c",
-        "esp_event.h": "c",
-        "event_groups.h": "c",
-        "esp_log.h": "c",
-        "esp_http_client.h": "c",
-        "*.inc": "c"
+        "adc.h": "c"
     }
 }

@@ -2050,44 +2050,6 @@
     {
         "children": [
             {
-                "children": [],
-                "depends_on": null,
-                "help": "Nome da rede WiFi.",
-                "id": "ESP_WIFI_SSID",
-                "name": "ESP_WIFI_SSID",
-                "range": null,
-                "title": "wifi SSID",
-                "type": "string"
-            },
-            {
-                "children": [],
-                "depends_on": null,
-                "help": "Senha do WiFi (WPA or WPA2).",
-                "id": "ESP_WIFI_PASSWORD",
-                "name": "ESP_WIFI_PASSWORD",
-                "range": null,
-                "title": "Senha do Wifi",
-                "type": "string"
-            },
-            {
-                "children": [],
-                "depends_on": null,
-                "help": "Configure o valor m\u00e1ximo de tentativas de conex\u00e3o.",
-                "id": "ESP_MAXIMUM_RETRY",
-                "name": "ESP_MAXIMUM_RETRY",
-                "range": null,
-                "title": "N\u00famero m\u00e1ximo de tentativas de conex\u00e3o",
-                "type": "int"
-            }
-        ],
-        "depends_on": null,
-        "id": "configura\u00e7\u00e3o-do-wifi-configuration",
-        "title": "Configura\u00e7\u00e3o do Wifi Configuration",
-        "type": "menu"
-    },
-    {
-        "children": [
-            {
                 "children": [
                     {
                         "children": [],

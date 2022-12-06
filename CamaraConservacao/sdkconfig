@@ -133,14 +133,6 @@ CONFIG_PARTITION_TABLE_MD5=y
 # end of Partition Table
 
 #
-# Configuração do Wifi Configuration
-#
-CONFIG_ESP_WIFI_SSID="Soares"
-CONFIG_ESP_WIFI_PASSWORD="31060810#*"
-CONFIG_ESP_MAXIMUM_RETRY=10
-# end of Configuração do Wifi Configuration
-
-#
 # Compiler options
 #
 CONFIG_COMPILER_OPTIMIZATION_DEFAULT=y
