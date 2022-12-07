@@ -13,7 +13,7 @@ Desenvolvimento de uma Câmara de Conservação para o projeto da disciplina de 
 - [x] Montagem da Maquete Em Isopor
 - [x] Montagem do Sistema de Refrigração
 - [x] Instalação do Sistema de Refrigeração
-- [ ] Instalação do Controle de temperatura
+- [x] Instalação do Controle de temperatura
 - [ ] Instalação do Controle de porta
 - [x] Iluminação Interior
 - [ ] Aplicativo MQTT
