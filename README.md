@@ -35,7 +35,7 @@ Desenvolvimento de uma Câmara de Conservação para o projeto da disciplina de 
 - [x] Pasta Térmica
 - [x] 2 Dissipadores de Calor
 - [x] 2 Coolers
-- [x] Fonte Ajustável Protobord
+- [x] Fonte Ajustável Protoboard
 - [x] 3 Relés
 - [x] Potenciômetro
 - [x] Buzzer
