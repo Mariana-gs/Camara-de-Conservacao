@@ -44,5 +44,16 @@ Desenvolvimento de uma Câmara de Conservação para o projeto da disciplina de 
 - [x] 4 LEDs Alto Brilho
 - [x] Display LCD
 
+## Fotos do Projeto Finalizado
+
+<div align="center">
+
+![geladeira](https://github.com/Mariana-gs/Camara-de-Conservacao/assets/81964220/364ae6ea-282e-4ce1-8ce4-042596a84423)
+
+![geladeira 2 ](https://github.com/Mariana-gs/Camara-de-Conservacao/assets/81964220/610d6e76-83f7-4364-b5f0-55e6c8afe953)
+
+![Captura de tela 2023-06-20 123222](https://github.com/Mariana-gs/Camara-de-Conservacao/assets/81964220/63d8dd62-49f1-49d9-bda0-cf3165fc47c1)
+</div>
+
 
 
